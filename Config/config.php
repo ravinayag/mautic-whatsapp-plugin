@@ -7,13 +7,15 @@
  * @link        http://mautic.org
  *
  * @license     GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+ * @author      Jan Kozak <galvani78@gmail.com>
+ * @author      Ravinayag <ravinayag@gmail.com>
  */
 
 return [
     'name'        => 'Whatsapp',
     'description' => 'Whatsapp integration',
     'author'      => 'me@joeykeller.com',
-    'version'     => '0.0.2',
+    'version'     => '0.0.3',
     'services' => [
         'events'  => [],
         'forms'   => [
@@ -79,5 +81,5 @@ return [
             ],
         ],
     ],
-    'parameters' => [],
+    'parameters' => [  ],
 ];
